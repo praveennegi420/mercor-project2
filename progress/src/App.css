@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Hurme';
+  src: url('./assets/hurmegeosans-no2-400.7f3badcdcf2aadb.woff2') format('woff2');
+}
+
+body, html {
+  color: #2e3856;
+  font-family: Hurme,-apple-system,BlinkMacSystemFont,sans-serif;
+  font-size: 100%;
+  line-height: 1.625;
+}
+
+
+article, aside, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.nav-bar {
+  background: white;
+  box-shadow: 0 .25rem 1rem 0 #2e385614;
+}
+
+.TopNavigation {
+    background-color: #fff;
+    border-bottom: .0625rem solid #edeff4;
+    color: #282e3e;
+    display: flex;
+    height: 4rem;
+    padding: 0 1rem;
+    z-index: 300;
+}
+
+.s19dmjr1 {
+  background: #f6f7fb;
+  border: .078125rem solid #edeff4;
+  border-radius: 4.75rem;
+  flex-flow: row nowrap;
+  font-size: .875rem;
+  font-weight: 600;
+  height: 2.375rem;
+  justify-content: flex-start;
+  letter-spacing: normal;
+  line-height: 1.426;
+  min-height: 2rem;
+  padding: 0;
+}
+
+.s2y71yx {
+  align-items: stretch;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.AssemblyInput {
+  border-radius: .5rem;
+  color: #586380;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2rem;
+  justify-content: center;
+  overflow: hidden;
+  padding: .25rem 1rem;
+  position: relative;
+}
+
+.AssemblyInput-input {
+  appearance: none;
+  background-color: initial;
+  border: none;
+  box-shadow: none;
+  color: #282e3e;
+  cursor: text;
+  filter: none;
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+
+.newboxShadow{
+  box-shadow: 0 0.25rem 1rem 0 #00000029;
+  background: #fff;
+    position: absolute;
+    top: 2.25rem;
+    width: 100%;
+}
+
+.SiteActivity-button {
+  align-items: center;
+  background: none;
+  border: .0625rem solid #d9dde8;
+  border-radius: 50%;
+  color: #586380;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  max-height: 2.4rem;
+  min-height: 2.4rem;
+  min-width: 2rem;
+  padding: 0;
+  position: relative;
+}
+
+.boxShadow{
+  box-shadow: 0 0.25rem 1rem 0 #00000029;
+}
+
+.poyi4u6 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: .5rem 0;
+}
+
+.poyi4u6:after, .poyi4u6:before {
+  background-color: #ffe8d8;
+  border-radius: 1rem;
+  content: " ";
+  display: inline-block;
+  height: .75rem;
+  width: .75rem;
+}
+
+.achivement  {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4rem 2rem;
+  justify-content: left;
+  margin: auto auto;
+  padding-bottom: 2rem;
+}
+
+.react-calendar {
+  color: #282e3e;
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.3333333333333333;
+}
+
+.react-calendar__navigation {
+  display: flex;
+}
+
+.react-calendar__navigation__arrow {
+  align-items: center;
+  border: .0625rem solid #d9dde8;
+  border-radius: .25rem;
+  color: #586380;
+  cursor: pointer;
+  display: flex;
+  height: 2rem;
+  margin-left: .5rem;
+  padding: .5rem;
+  width: 2rem;
+}
+
+.c6p6uaq .react-calendar__navigation__arrow, .c6p6uaq .react-calendar__navigation__label {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.react-calendar__navigation__label {
+  color: #282e3e;
+  cursor: default;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 1.5;
+  order: -1;
+  padding-left: .5rem;
+}
+
+.react-calendar__navigation__next2-button, .react-calendar__navigation__prev2-button {
+  display: none;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: #939bb4;
+  height: 2rem;
+  text-align: center;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #939bb4;
+}
+
+.react-calendar__month-view__days__day {
+  background: #0000;
+  border: none;
+  color: #282e3e;
+  font: inherit;
+  height: 2rem;
+  margin: .5rem 0;
+  pointer-events: none;
+  position: relative;
+}
+
+.streak{
+  background-image: url('https://assets.quizlet.com/a/j/dist/app/i/achievements/streak-flame.90821ad6fa84e8e.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.orangeBg{
+  background-color: rgb(252, 237, 210);
+  border-radius: 10px;
+}
